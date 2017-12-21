@@ -1,0 +1,52 @@
+body{
+
+    /*background-color: #FF5555;*/
+    /*background-color: #C21C1C;*/
+    /*background-image: url(../img/depositphotos_78604916-stock-illustration-scandinavian-nordic-seamless-christmas-pattern.jpg);*/
+    background-image: url(../img/Weihnachtsdeko_rot.jpg);
+    background-repeat: no-repeat;
+    /*margin-top: 0px;*/
+    
+}
+
+.container{
+
+    /*background-color: #d6a10d;*/
+    background-color: #eeeeee;
+    border: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 900px;
+    /*height: 900px;*/
+    padding: 10px;
+    opacity: 0.9;
+    border-width: 2px;
+    border-style: solid;
+    border-color: B33131;
+    border-top-width: 0px;
+    
+}
+
+.FW{
+
+    /*font-size: 4.375em; /* 70px/16 = 4,375em*/
+    font-size: 400%;
+    font-family: "Comic Sans MS", serif;
+    font-style: italic;
+    text-align: center;
+    padding: 0px;
+    margin: 20px;
+    text-decoration:underline;
+    opacity: 1.0;
+    
+
+}
+
+.text{
+    
+    font-size: 200%;
+    text-align: center;
+    line-height: 50px;
+    
+}
