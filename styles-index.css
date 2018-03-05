@@ -1,0 +1,47 @@
+body{
+    
+    background-color: #999999;
+    margin: 0px;
+        
+}
+
+.container{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    /*background-color: #f3a60b;*/
+    background-color: #999999;
+    width: 800px;
+    height: 600px;
+    padding: 10px;
+    opacity: 1.0;
+    border-width: 5px;
+    border-color: #260101;
+}
+
+.content{
+    margin: auto;
+    border-color: #777777;
+    border-width: 3px;
+    border-style: solid;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    opacity: 0.9;
+    border-width: 5px;
+    border-color: aqua;
+}
+
+.text{
+    
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
