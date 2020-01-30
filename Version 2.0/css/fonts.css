@@ -1,0 +1,53 @@
+@font-face {
+    font-family: sullivan;
+    src: url(../fonts/Sullivan-Regular.otf) format("opentype");
+}
+
+.sullivan{
+    font-family: sullivan;
+}
+
+@font-face {
+    font-family: montserratRegular;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf) format("opentype");
+}
+
+.montserratRegular{
+    font-family: montserratRegular;
+}
+
+@font-face {
+    font-family: montserratSubrayadaRegular;
+    src: url(../fonts/Montserrat_Subrayada/MontserratSubrayada-Regular.ttf) format("opentype");
+}
+
+.montserratSubrayadaRegular{
+    font-family: montserratSubrayadaRegular, sans-serif;
+}
+
+@font-face {
+    font-family: ralewayMedium;
+    src: url(../fonts/Raleway/Raleway-Medium.ttf) format("opentype");
+}
+
+.ralewayMedium{
+    font-family: ralewayMedium, sans-serif;
+}
+
+@font-face {
+    font-family: ralewayLight;
+    src: url(../fonts/Raleway/Raleway-Light.ttf) format("opentype");
+}
+
+.ralewayLight{
+    font-family: ralewayLight, sans-serif;
+}
+
+@font-face {
+    font-family: ralewayExtraLight;
+    src: url(../fonts/Raleway/Raleway-ExtraLight.ttf) format("opentype");
+}
+
+.ralewayExtraLight{
+    font-family: ralewayExtraLight, sans-serif;
+}

@@ -1,0 +1,20 @@
+- use apple colors
+https://developer.apple.com/design/human-interface-guidelines/watchos/visual-design/color/
+
+- fix hover color for nav bar items #
+
+- bewertungen von kunden
+
+- gradient abgrenzung? #
+
+- abstand icon und h4 überschrift darunter kleiner machen, so wie zwischen h4 und p #
+
+- udemy zum Orientieren
+https://www.udemy.com/
+
+- google icons
+https://material.io/resources/icons/?icon=insert_emoticon&style=baseline
+
+- gradient generator
+https://cssgradient.io/
+https://uigradients.com/#PurpleBliss

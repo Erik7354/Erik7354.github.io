@@ -1,0 +1,78 @@
+/* Gradients */
+
+.gradient_bg_blue-grey-lighten-1_blue-grey-darken-1_blue-grey-lighten-1{ 
+    background: linear-gradient(90deg, rgba(96,125,139,1) 0%, rgba(69,90,100,1) 50%, rgba(96,125,139,1) 100%);
+}
+
+.gradient_bg_grey-darken-4_black_grey-darken-4{ 
+    background: linear-gradient(90deg, rgb(33, 33, 33, 1) 0%, rgba(0,0,0,1) 50%, rgb(33, 33, 33, 1) 100%);
+}
+
+.gradient_bg_Blood_Red{
+    background: #f85032; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f85032, #e73827); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f85032, #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* Apple Colors watchOS text */
+
+.orange600 { color: rgb(250, 137, 0) !important; }
+
+.apple_yellow-text { color: rgb(255, 230, 32) !important; }
+
+.apple_blue-text { color: rgb(32, 148, 250, 1) !important; }
+
+.apple_violett-text { color: rgb(120, 122, 255, 1) !important; }
+
+.apple_red-text { color: rgb(250, 17, 79, 1) !important; }
+
+.apple_green-text { color: rgb(4, 222, 113, 1) !important; }
+
+.apple_green-text { color: rgb(4, 222, 113, 1) !important; }
+
+.apple_green-text { color: rgb(4, 222, 113, 1) !important; }
+
+.apple_green-text { color: rgb(4, 222, 113, 1) !important; }
+
+.apple_white-text { color: rgb(242, 244, 255, 1) !important; }
+
+
+/* Apple Colors watchOS */
+
+.orange600 { background-color: rgb(250, 137, 0) !important; }
+
+.apple_yellow { background-color: rgb(255, 230, 32) !important; }
+
+.apple_blue { background-color: rgb(32, 148, 250, 1) !important; }
+
+.apple_violett { background-color: rgb(120, 122, 255, 1) !important; }
+
+.apple_red { background-color: rgb(250, 17, 79, 1) !important; }
+
+.apple_green { background-color: rgb(4, 222, 113, 1) !important; }
+
+.apple_green { background-color: rgb(4, 222, 113, 1) !important; }
+
+.apple_green { background-color: rgb(4, 222, 113, 1) !important; }
+
+.apple_green { background-color: rgb(4, 222, 113, 1) !important; }
+
+.apple_white { background-color: rgb(242, 244, 255, 1) !important; }
+
+/* Apple Colors watchOS transparent */
+
+.apple_yellow_transparent { background-color: rgb(255, 230, 32, 0.14) !important; }
+
+.apple_blue_transparent { background-color: rgb(32, 148, 250, 0.17) !important; }
+
+.apple_violett_transparent { background-color: rgb(120, 122, 255, 0.2) !important; }
+
+.apple_red_transparent { background-color: rgb(250, 17, 79, 0.14) !important; }
+
+.apple_green_transparent { background-color: rgb(4, 222, 113, 0.14) !important; }
+
+.apple_white_transparent { background-color: rgb(242, 244, 255, 0.14) !important; }
+
+.apple_orange_transparent { background-color: rgb(255, 149, 0, 0.15) !important; }
+

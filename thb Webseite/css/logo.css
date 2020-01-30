@@ -1,0 +1,9 @@
+.logo_Instagram{
+  min-width: 29px;
+  min-height: 29px;
+  max-width: 68px;
+  max-height: 68px;
+  background-color: rgb(222, 42, 123);
+  padding: 5px;
+  border-radius: 6px;
+}
