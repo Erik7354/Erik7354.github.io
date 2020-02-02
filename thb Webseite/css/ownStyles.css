@@ -7,3 +7,9 @@
   padding: 5px;
   border-radius: 6px;
 }
+
+@media only screen and (max-width: 600px) {
+  .size_font_small_screen_only {
+    font-size: 1.3rem !important;
+  }
+}
