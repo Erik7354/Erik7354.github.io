@@ -76,3 +76,35 @@
 
 .apple_orange_transparent { background-color: rgb(255, 149, 0, 0.15) !important; }
 
+/* Colors for Input Forms */
+
+.input-field label, textarea {
+    color: rgb(242, 244, 255, 1) !important;
+}
+.input-field input, textarea {
+    border-bottom: 1px solid rgb(242, 244, 255, 1) !important;
+}
+  /* label focus color */
+.input-field input[type=text]:focus + label, textarea {
+    color: rgb(242, 244, 255, 1) !important;
+}
+  /* label underline focus color */
+.input-field input[type=text]:focus, textarea:focus {
+    border-bottom: 1px solid rgb(242, 244, 255, 1) !important;
+    box-shadow: 0 1px 0 0 rgb(242, 244, 255, 1) !important;
+}
+  /* valid color */
+.input-field input[type=text].valid, textarea.valid {
+    border-bottom: 1px solid rgb(242, 244, 255, 1) !important;
+    box-shadow: 0 0px 0 0 rgb(242, 244, 255, 1) !important;
+}
+  /* invalid color */
+.input-field input[type=text].invalid, textarea.invalid {
+    border-bottom: 1px solid rgb(242, 244, 255, 1) !important;
+    box-shadow: 0 0px 0 0 rgb(242, 244, 255, 1) !important;
+}
+  /* icon prefix focus color */
+.input-field .prefix.active {
+    color: rgb(242, 244, 255, 1) !important;
+}
+

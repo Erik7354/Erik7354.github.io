@@ -1,1 +1,5 @@
 nav ul a:hover farbe: materialize.css, 4419-4421 # Hover Effekt für Navbar Elemente
+
+materialize.css: 5587 color from #26a69a to rgb(242, 244, 255, 1)
+
+materialize.css: 5546 background-color from #fff to #000
