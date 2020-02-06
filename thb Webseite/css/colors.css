@@ -37,6 +37,8 @@
 
 .apple_white-text { color: rgb(242, 244, 255, 1) !important; }
 
+.apple_white-text_transparent { color: rgb(242, 244, 255, 0.14) !important; }
+
 
 /* Apple Colors watchOS */
 

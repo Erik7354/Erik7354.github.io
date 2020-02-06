@@ -24,3 +24,21 @@
 .montserratSubrayadaRegular{
     font-family: montserratSubrayadaRegular, serif;
 }
+
+@font-face {
+    font-family: robotoMedium;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf) format("opentype");
+}
+
+.robotoMedium{
+    font-family: robotoMedium, serif;
+}
+
+@font-face {
+    font-family: robotoLight;
+    src: url(../fonts/Roboto/Roboto-Light.ttf) format("opentype");
+}
+
+.robotoLight{
+    font-family: robotoLight, serif;
+}
