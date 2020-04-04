@@ -6,6 +6,8 @@
  * Made By MaterializeCSS.com
  */
 
+@import "colors.css";
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -54,4 +56,44 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+/* Colors for Input Forms */
+
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 16px;
+  color: var(--apple_white);
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+
+.input-field label, textarea {
+  color: var(--apple_white) !important;
+}
+.input-field input, textarea {
+  border-bottom: 1px solid var(--apple_white) !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label, input[type=email]:focus + label, textarea:focus + label {
+  color: var(--apple_green) !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  border-bottom: 1px solid var(--apple_green) !important;
+  box-shadow: 0 1px 0 0 var(--apple_green) !important;
+}
+/* valid color */
+.input-field input[type=text].valid, input[type=email].valid, textarea.valid {
+  border-bottom: 1px solid var(--apple_green) !important;
+  box-shadow: 0 0px 0 0 var(--apple_green) !important;
+}
+/* invalid color */
+.input-field input[type=text].invalid, input[type=email].invalid, textarea.invalid {
+  border-bottom: 1px solid var(--apple_red) !important;
+  box-shadow: 0 0px 0 0 var(--apple_red) !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: var(--apple_red) !important;
 }

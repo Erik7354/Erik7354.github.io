@@ -14,99 +14,56 @@
     background: linear-gradient(to right, #f85032, #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* VARS */
+
+:root{
+  /* APPLE TEXT watchOS */
+  --apple_yellow: rgb(255, 230, 32);
+  --apple_blue: rgb(32, 148, 250, 1);
+  --apple_violett: rgb(120, 122, 255, 1);
+  --apple_red:  rgb(250, 17, 79, 1);
+  --apple_green:  rgb(4, 222, 113, 1);
+  --apple_white:  rgb(242, 244, 255, 1);
+  /* APPLE BG watchOS */
+  --apple_yellow_transparent: rgb(255, 230, 32, 0.14);
+  --apple_blue_transparent: rgb(32, 148, 250, 0.17);  
+  --apple_violett_transparent: rgb(120, 122, 255, 0.2); 
+  --apple_red_transparent: rgb(250, 17, 79, 0.14); 
+  --apple_green_transparent: rgb(4, 222, 113, 0.14); 
+  --apple_white_transparent: rgb(242, 244, 255, 0.14); 
+  --apple_orange_transparent: rgb(255, 149, 0, 0.15);
+}
+
 
 /* Apple Colors watchOS text */
 
-.orange600 { color: rgb(250, 137, 0) !important; }
-
-.apple_yellow-text { color: rgb(255, 230, 32) !important; }
-
-.apple_blue-text { color: rgb(32, 148, 250, 1) !important; }
-
-.apple_violett-text { color: rgb(120, 122, 255, 1) !important; }
-
-.apple_red-text { color: rgb(250, 17, 79, 1) !important; }
-
-.apple_green-text { color: rgb(4, 222, 113, 1) !important; }
-
-.apple_green-text { color: rgb(4, 222, 113, 1) !important; }
-
-.apple_green-text { color: rgb(4, 222, 113, 1) !important; }
-
-.apple_green-text { color: rgb(4, 222, 113, 1) !important; }
-
-.apple_white-text { color: rgb(242, 244, 255, 1) !important; }
-
-.apple_white-text_transparent { color: rgb(242, 244, 255, 0.14) !important; }
+.apple_yellow-text { color: var(--apple_yellow) !important; }
+.apple_blue-text { color: var(--apple_blue) !important; }
+.apple_violett-text { color: var(--apple_violett) !important; }
+.apple_red-text { color: var(--apple_red) !important; }
+.apple_green-text { color: var(--apple_green) !important; }
+.apple_white-text { color: var(--apple_white) !important; }
+.apple_white-text_transparent { color: var(--apple_white_transparent) !important; }
 
 
 /* Apple Colors watchOS */
 
-.orange600 { background-color: rgb(250, 137, 0) !important; }
-
-.apple_yellow { background-color: rgb(255, 230, 32) !important; }
-
-.apple_blue { background-color: rgb(32, 148, 250, 1) !important; }
-
-.apple_violett { background-color: rgb(120, 122, 255, 1) !important; }
-
-.apple_red { background-color: rgb(250, 17, 79, 1) !important; }
-
-.apple_green { background-color: rgb(4, 222, 113, 1) !important; }
-
-.apple_green { background-color: rgb(4, 222, 113, 1) !important; }
-
-.apple_green { background-color: rgb(4, 222, 113, 1) !important; }
-
-.apple_green { background-color: rgb(4, 222, 113, 1) !important; }
-
-.apple_white { background-color: rgb(242, 244, 255, 1) !important; }
+.apple_yellow { background-color: var(--apple_yellow) !important; }
+.apple_blue { background-color: var(--apple_blue) !important; }
+.apple_violett { background-color: var(--apple_violett) !important; }
+.apple_red { background-color: var(--apple_red) !important; }
+.apple_green { background-color: var(--apple_green) !important; }
+.apple_white { background-color: var(--apple_white) !important; }
 
 /* Apple Colors watchOS transparent */
 
-.apple_yellow_transparent { background-color: rgb(255, 230, 32, 0.14) !important; }
+.apple_yellow_transparent { background-color: var(--apple_yellow_transparent) !important; }
+.apple_blue_transparent { background-color: var(--apple_blue_transparent) !important; }
+.apple_violett_transparent { background-color:var(--apple_violett_transparent) !important; }
+.apple_red_transparent { background-color: var(--apple_red_transparent) !important; }
+.apple_green_transparent { background-color: var(--apple_green_transparent) !important; }
+.apple_white_transparent { background-color: var(--apple_white_transparent) !important; }
+.apple_orange_transparent { background-color: var(--apple_orange_transparent) !important; }
 
-.apple_blue_transparent { background-color: rgb(32, 148, 250, 0.17) !important; }
 
-.apple_violett_transparent { background-color: rgb(120, 122, 255, 0.2) !important; }
-
-.apple_red_transparent { background-color: rgb(250, 17, 79, 0.14) !important; }
-
-.apple_green_transparent { background-color: rgb(4, 222, 113, 0.14) !important; }
-
-.apple_white_transparent { background-color: rgb(242, 244, 255, 0.14) !important; }
-
-.apple_orange_transparent { background-color: rgb(255, 149, 0, 0.15) !important; }
-
-/* Colors for Input Forms */
-
-.input-field label, textarea {
-    color: rgb(242, 244, 255, 1) !important;
-}
-.input-field input, textarea {
-    border-bottom: 1px solid rgb(242, 244, 255, 1) !important;
-}
-  /* label focus color */
-.input-field input[type=text]:focus + label, textarea {
-    color: rgb(242, 244, 255, 1) !important;
-}
-  /* label underline focus color */
-.input-field input[type=text]:focus, textarea:focus {
-    border-bottom: 1px solid rgb(242, 244, 255, 1) !important;
-    box-shadow: 0 1px 0 0 rgb(242, 244, 255, 1) !important;
-}
-  /* valid color */
-.input-field input[type=text].valid, textarea.valid {
-    border-bottom: 1px solid rgb(242, 244, 255, 1) !important;
-    box-shadow: 0 0px 0 0 rgb(242, 244, 255, 1) !important;
-}
-  /* invalid color */
-.input-field input[type=text].invalid, textarea.invalid {
-    border-bottom: 1px solid rgb(242, 244, 255, 1) !important;
-    box-shadow: 0 0px 0 0 rgb(242, 244, 255, 1) !important;
-}
-  /* icon prefix focus color */
-.input-field .prefix.active {
-    color: rgb(242, 244, 255, 1) !important;
-}
 

@@ -5586,7 +5586,7 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: rgb(242, 244, 255, 1);
+  color: #fff;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
