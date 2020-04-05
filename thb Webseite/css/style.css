@@ -8,6 +8,16 @@
 
 @import "colors.css";
 
+.logo_Instagram{
+  min-width: 29px;
+  min-height: 29px;
+  max-width: 75px;
+  max-height: 75px;
+  /*background-color: rgb(222, 42, 123);
+  padding: 5px;*/
+  border-radius: 6px;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -47,6 +57,12 @@ p {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .size_font_small_screen_only {
+    font-size: 1.1rem !important;
+  }
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -58,14 +74,15 @@ footer.page-footer {
   margin: 0;
 }
 
-/* Colors for Input Forms */
+.htopf{
+  display: none;
+}
 
-.dropdown-content li > a, .dropdown-content li > span {
-  font-size: 16px;
-  color: var(--apple_white);
-  display: block;
-  line-height: 22px;
-  padding: 14px 16px;
+/* Colors for Input Forms 
+=====================================================*/
+
+input{
+  color: var(--apple_white) !important;
 }
 
 .input-field label, textarea {
@@ -85,8 +102,8 @@ footer.page-footer {
 }
 /* valid color */
 .input-field input[type=text].valid, input[type=email].valid, textarea.valid {
-  border-bottom: 1px solid var(--apple_green) !important;
-  box-shadow: 0 0px 0 0 var(--apple_green) !important;
+  border-bottom: 1px solid var(--apple_white) !important;
+  box-shadow: 0 0px 0 0 var(--apple_white) !important;
 }
 /* invalid color */
 .input-field input[type=text].invalid, input[type=email].invalid, textarea.invalid {
@@ -96,4 +113,48 @@ footer.page-footer {
 /* icon prefix focus color */
 .input-field .prefix.active {
   color: var(--apple_red) !important;
+}
+
+/* Select Input Colors 
+  ==================================================*/
+.select-dropdown li.disabled,
+.select-dropdown li.disabled > span,
+.select-dropdown li.optgroup {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+}
+
+body.keyboard-focused .select-dropdown.dropdown-content li:focus {
+  background-color: var(--apple_white_transparent);
+}
+
+.select-dropdown.dropdown-content li:hover {
+  background-color: var(--apple_white_transparent);
+}
+
+/* color of elements in select */
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 16px;
+  color: var(--apple_green);
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+
+.select-wrapper .caret {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  z-index: 0;
+  fill: none;
+}
+
+#select_svg_arrow{
+  fill: var(--apple_white);
+}
+
+#select_svg_box{
+  fill: var(--apple_white_transparent);
 }
