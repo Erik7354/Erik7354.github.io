@@ -2,16 +2,22 @@
 
 .gradient_bg_blue-grey-lighten-1_blue-grey-darken-1_blue-grey-lighten-1{ 
     background: linear-gradient(90deg, rgba(96,125,139,1) 0%, rgba(69,90,100,1) 50%, rgba(96,125,139,1) 100%);
+    
 }
 
-.gradient_bg_grey-darken-4_black_grey-darken-4{ 
+.gradient_bg_grey-black-grey{ 
     background: linear-gradient(90deg, rgb(33, 33, 33, 1) 0%, rgba(0,0,0,1) 50%, rgb(33, 33, 33, 1) 100%);
+    background: linear-gradient(90deg, rgb(22, 22, 22, 1) 0%, rgba(0,0,0,1) 50%, rgb(22, 22, 22, 1) 100%);
 }
 
 .gradient_bg_Blood_Red{
     background: #f85032; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f85032, #e73827); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f85032, #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg_grey{
+    background-color: rgb(22, 22, 22, 1);
 }
 
 /* VARS */
