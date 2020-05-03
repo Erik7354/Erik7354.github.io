@@ -172,3 +172,9 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 /*.btn:hover, .btn-large:hover, .btn-small:hover {
   background-color: #2bbbad;
 }*/
+
+/* Für Mitglieder Seite */
+
+.card-title{
+  color: black !important;
+}
