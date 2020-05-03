@@ -187,7 +187,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
   /*border-top: 0;*/
 }
 
-/* GALLERIE */
+/* GALERIE */
 
 #headlinerImg{
   border-radius: 5px;
@@ -197,11 +197,14 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 .matrixImg{
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 1rem;
 }
 
 .matrixImgTrenner{
   border: 0;
   background-color: transparent;
+  padding: 0;
+  margin: 0;
 }
 
 #headlineTrenner{
