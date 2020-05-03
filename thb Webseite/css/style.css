@@ -199,7 +199,12 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
   border-radius: 10px;
 }
 
-hr{
+.matrixImgTrenner{
+  border: 0;
+  background-color: transparent;
+}
+
+#headlineTrenner{
   background-color: var(--apple_white_transparent);
   height: 1px;
   border-width: 0px;
