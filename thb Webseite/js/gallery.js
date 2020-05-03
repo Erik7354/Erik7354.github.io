@@ -25,7 +25,7 @@ for (let i = 1; i < 21; i++) {
     
     // Bild wird in Column gepackt und zu einem String verarbeitet
     img = [
-        '<div class="col s6 m4">',
+        '<div class="col s12 m4">',
         img,
         '</div>'
     ].join("\n");
