@@ -175,6 +175,15 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 
 /* Für Mitglieder Seite */
 
-.card-title{
-  color: black !important;
+.card{
+  background-color: black;
+  color: var(--apple_white);
+  
 }
+
+.card-content{
+  border: 1px solid var(--apple_white_transparent);
+  border-radius: 0 0 5px 5px !important;
+  /*border-top: 0;*/
+}
+
